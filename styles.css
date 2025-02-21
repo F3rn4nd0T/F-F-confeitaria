@@ -211,4 +211,18 @@ span {
         justify-content: space-between;
     }
 
+    .descipition {
+        width: 100%;
+    }    
+
+    .button {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .foto-dos-criadores {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+
 }
