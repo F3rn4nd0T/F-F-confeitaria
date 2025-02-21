@@ -70,7 +70,7 @@ li:hover {
 
 .taçadebombom {
     width: 400px;
-    height: 500px;
+    height: 300px;
 }
 
 #sinopse {
@@ -112,3 +112,41 @@ li:hover {
     color:#ff0202;
 }
 
+.criadores {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.foto-dos-criadores {
+    width: 90px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.fotos {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: 50%, 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'tangerine';
+}
+.banner-1 {
+    background-image: url(./Fabiana.png);
+}
+
+.banner-2 {
+    margin-left: 10px;  
+    background-image: url(./Fernando.jpg);
+}
