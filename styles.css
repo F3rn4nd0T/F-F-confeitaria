@@ -175,3 +175,40 @@ span {
     flex-direction: column;
     align-items:center
 }
+
+@media (max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+
+    #banner {
+        background-position: 40px;
+    }
+
+    #taçadebombom {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+    .demostraçao {
+        width: 100%;
+    }
+
+    #sinopse {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+}
