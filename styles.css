@@ -150,3 +150,28 @@ li:hover {
     margin-left: 10px;  
     background-image: url(./Fernando.jpg);
 }
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: black;
+    font-size: 30px;
+    font-family: 'tangerine';
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items:center
+}
