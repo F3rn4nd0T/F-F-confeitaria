@@ -113,14 +113,14 @@ li:hover {
 }
 
 .criadores {
-    width: 100%;
+    width: 98%;
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
 
 .fotos-dos-criadores {
-    width: 90px;
+    width: 50px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     row-gap: 20px;
