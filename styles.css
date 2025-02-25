@@ -119,7 +119,7 @@ li:hover {
     margin-top: 50px;
 }
 
-.foto-dos-criadores {
+.fotos-dos-criadores {
     width: 90px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -221,8 +221,8 @@ span {
         margin-top: 30px;
     }
 
-    .foto-dos-criadores {
-        grid-template-columns: 1fr;
+    .fotos-dos-criadores {
+        grid-template-columns: repeat(,1fr);
         margin-top: 150px;
     }
 

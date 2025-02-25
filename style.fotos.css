@@ -42,3 +42,76 @@ li:hover {
     width: 150px;
     margin-top: 19px;
 }
+
+.doces {
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    margin-top: 50px;
+}
+
+.fotos-dos-doces {
+    margin-left: 150px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 50px;
+
+}
+
+.fotos {
+    width: 400px;
+    height: 400px;
+    background-size:cover ;
+    background-position: 100% 90% ;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.sobremesas1 {
+    background-image: url(./doces/Copinhos.jpg);
+}
+
+.sobremesas2 {
+    background-image: url(./doces/coração-lapidado.jpg);
+}
+
+.sobremesas3 {
+    background-image: url(./doces/controle-de-chocolate.jpg);
+}
+
+.sobremesas4 {
+    background-image: url(./doces/barra.jpg);
+}
+
+.sobremesas5 {
+    background-image: url(./doces/copo-da-felicidade.jpg);
+}
+
+.sobremesas6 {
+    background-image: url(./doces/mini-travessa.jpg);
+}
+
+.sobremesas7 {
+    background-image: url(./doces/traveça.jpg);
+}
+
+.sobremesas8 {
+    background-image: url(./doces/Taça\ .jpg);
+}
+
+.sobremesas9 {
+    background-image: url(./doces/cesta-perssonalizada.jpg);
+}
+
+h4 {
+font-family: 'tangerine';
+font-size: 30px;
+justify-content: center;
+}
