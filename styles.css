@@ -82,10 +82,10 @@ li:hover {
 }
 
 .description {
-    color: #fff;
-    font-size: 40px;
+    color: black;
+    font-size: 30px;
     font-family: 'tangerine';
-    width: 70%;
+    width: 100%;
 }
 
 .button {
@@ -112,27 +112,27 @@ li:hover {
     color:#ff0202;
 }
 
-.criadores {
+.taças {
     width: 98%;
-    display: flex;
     justify-content: center;
     margin-top: 50px;
+    margin-left: 3px;
 }
 
-.fotos-dos-criadores {
-    width: 10px;
+.fotos-da-taça {
+    width: 100px;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns:repeat(3, 1fr);
     row-gap: 20px;
     column-gap: 40px;
 }
 
 .fotos {
-    width: 200px;
-    height: 200px;
+    width: 600px;
+    height: 600px;
     background-size: cover;
     background-position: 50%, 50%;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     transition: 1s;
     display: flex;
@@ -143,14 +143,18 @@ li:hover {
     font-family: 'tangerine';
 }
 .banner-1 {
-    background-image: url(./Fabiana.png);
+    background-image: url(./doces/Sobremesa-na-taça.jpg);
 }
 
 .banner-2 {
-    margin-left: 10px;  
-    background-image: url(./Fernando.jpg);
+    margin-left: 5px;
+    background-image: url(./doces/Sobremesa-na-taça2.jpg);
 }
 
+.banner-3 {
+    margin-left: 5px;
+    background-image: url(./doces/Taça\ .jpg);
+}
 footer {
     height: 300px;
     margin-top: 50px;
@@ -226,9 +230,14 @@ span {
         margin-top: 30px;
     }
 
-    .fotos-dos-criadores {
-        grid-template-columns: repeat(1fr);
-        margin-top: 150px;
+    .fotos {
+        width: 400px;
+        height: 400px;
+        margin-left: 4px;
+    }
+
+    .fotos-da-taça {
+        grid-template-columns: 1fr;
     }
 
     span {
