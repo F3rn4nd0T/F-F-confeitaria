@@ -164,7 +164,7 @@ span {
         grid-template-columns:repeat(2 ,1fr);
         row-gap: 10;
         column-gap: 10px;
-        margin-left: 7px;
+        margin-left: 3px;
     }
     span {
         font-size: 20px;
