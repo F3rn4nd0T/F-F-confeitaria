@@ -115,3 +115,57 @@ font-family: 'tangerine';
 font-size: 30px;
 text-align: center;
 }
+
+footer {
+    height: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+    margin-top:10px;
+}
+
+span {
+    font-size:30px;
+    font-family:'tangerine';
+}
+
+.footer-navigation {
+    display:none;
+}
+.footer-list {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .fotos {
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+    }
+
+    h4{
+        font-size: 20px;
+    }
+
+    .fotos-dos-doces {
+        grid-template-columns:repeat(2 ,1fr);
+        row-gap: 0;
+        column-gap: 10px;
+        align-items: center;
+        margin-left: 2px;
+
+
+    }
+    
+
+}
