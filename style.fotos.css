@@ -142,13 +142,16 @@ span {
     .footer-navigation {
         display: block;
     }
+    li {
+        font-size: 25px;
+    }
 
     nav {
         display: none;
     }
 
     .fotos {
-        width: 200px;
+        width: 195px;
         height: 200px;
         border-radius: 20px;
     }
@@ -159,12 +162,12 @@ span {
 
     .fotos-dos-doces {
         grid-template-columns:repeat(2 ,1fr);
-        row-gap: 0;
+        row-gap: 10;
         column-gap: 10px;
-        align-items: center;
-        margin-left: 2px;
-
-
+        margin-left: 7px;
+    }
+    span {
+        font-size: 20px;
     }
     
 
