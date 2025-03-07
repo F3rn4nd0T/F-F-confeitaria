@@ -10,64 +10,71 @@
 <body>
     <header>
         <img id="logo" src="./fef.jpg" />
-            <nav>
+            <nav id="menuoculto" class="menuoculto">
                 <ul>
-                    <a href="./index.html">
-                        <li>Home</li>
-                    </a>
-                    <a href="./Fotos.html">
-                        <li>Fotos</li>
-                    </a>
-                     <a href="./quemsomos.html">
-                        <li>Quem somos</li>
-                    </a>
-                   
+                    <a href="" class="btnFechar" onclick="fecharNav()">&times</a>
+                        <a href="./index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="./Fotos.html">
+                            <li>Fotos</li>
+                        </a>
+                        <a href="./quemsomos.html">
+                            <li>Quem somos</li>
+                        </a>
                 </ul>
             </nav>
+            <section id="barralateral">
+                <span style="font-size:30px;cursor:pointer;"onclick="abrirNav()">&#9776;</span>
+            </section>
+
     </header>
-    <img id="banner" src="./banner.png"/>
-    <div id="demonstraçao">
-        <div class="content">
-                <video controls class="taçadebombom">
-                    <source src="./Snapinst.app_video_AQPmRE849t51qJ1TyCffKAdnwM-sAwjC714DL51ke1kfmDW-zHFiTrnKhjcwWK8jlX3Ia-Bl4uU8SY6_L5b22Kb_WvoF9UBTFNV4qfI.mp4 ">
-                    Seu navegador não tem suporte para videos
-                </video>
-            <div id="sinopse">
-                    <p class="description">
-                        Taça de bombom de uva e morango, uma deliciosa sobremeça para o almoço de domingo.
-                        Muito bem recheada com; Leite ninho, ganache de chocolate, uvas e morangos.
-                        Feito com produtos selecionados e feito com todo carinho e cuidado, para ser sua sobremeça favorita no domingão.
-                    </p>
-                <button class="button">Fazer pedido</button>
-            </div>
-        </div>
-    </div>
-        <div class="taças">
-            <div class="fotos-da-taça">
-                <div class="fotos banner-1"></div>
-                <div class="fotos banner-2"></div>
-                <div class="fotos banner-3"></div>
-            </div>
 
-        <footer>
-            <img style="object-fit: contain;" id="logo" src="./fef.jpg"/>
-            <nav class="footer-navigation">
-                <ul class="footer-list">
-                    <a href="./index.html">
-                        <li>Home</li>
-                    </a>
-                    <a href="./Fotos.html">
-                        <li>Fotos</li>
-                    </a>
-                    <a href="./quemsomos.html">
-                        <li>Quem somos</li>
-                    </a>
-                   
-                </ul>
-            </nav>
-            <span>Todos os direitos reservados ©</span>
-            <span>Desenvolvido por - Fernando Tito</span>
+        <script type="text/javascript" src="./script.js"></script>
 
-        </footer>
-</body>
-</html>
+            <img id="banner" src="./banner.png"/>
+            <div id="demonstraçao">
+                <div class="content">
+                        <video controls class="taçadebombom">
+                            <source src="./Snapinst.app_video_AQPmRE849t51qJ1TyCffKAdnwM-sAwjC714DL51ke1kfmDW-zHFiTrnKhjcwWK8jlX3Ia-Bl4uU8SY6_L5b22Kb_WvoF9UBTFNV4qfI.mp4 ">
+                            Seu navegador não tem suporte para videos
+                        </video>
+                    <div id="sinopse">
+                            <p class="description">
+                                Taça de bombom de uva e morango, uma deliciosa sobremeça para o almoço de domingo.
+                                Muito bem recheada com; Leite ninho, ganache de chocolate, uvas e morangos.
+                                Feito com produtos selecionados e feito com todo carinho e cuidado, para ser sua sobremeça favorita no domingão.
+                            </p>
+                        <button class="button">Fazer pedido</button>
+                    </div>
+                </div>
+            </div>
+                <div class="taças">
+                    <div class="fotos-da-taça">
+                        <div class="fotos banner-1"></div>
+                        <div class="fotos banner-2"></div>
+                        <div class="fotos banner-3"></div>
+                    </div>
+
+                <footer>
+                    <img style="object-fit: contain;" id="logo" src="./fef.jpg"/>
+                    <nav class="footer-navigation">
+                        <ul class="footer-list">
+                            <a href="./index.html">
+                                <li>Home</li>
+                            </a>
+                            <a href="./Fotos.html">
+                                <li>Fotos</li>
+                            </a>
+                            <a href="./quemsomos.html">
+                                <li>Quem somos</li>
+                            </a>
+                        
+                        </ul>
+                    </nav>
+                    <span>Todos os direitos reservados ©</span>
+                    <span>Desenvolvido por - Fernando Tito</span>
+
+                </footer>
+        </body>
+        </html>
